@@ -1,0 +1,7 @@
+<resources>
+    <!-- Material Design 3 theme, no default ActionBar (MainActivity uses its own MaterialToolbar) -->
+    <style name="Theme.VLULab10" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#B71C1C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+</resources>

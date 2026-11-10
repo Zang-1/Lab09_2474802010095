@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">VLU Lab10 Firebase Glide</string>
+    <string name="tab_login">Login</string>
+    <string name="tab_register">Register</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Create Account</string>
+    <string name="btn_logout">Logout</string>
+    <string name="title_gallery">Photo Gallery</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="cd_avatar">Avatar</string>
+
+    <string name="welcome">Hello, %1$s</string>
+    <string name="photo_author">Author: %1$s</string>
+
+    <!-- Client-side validation -->
+    <string name="error_email_empty">Please enter email</string>
+    <string name="error_email_format">Invalid email format (e.g., name@gmail.com)</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_reset_email">Enter a valid email to receive the password reset link</string>
+
+    <!-- Firebase errors -->
+    <string name="error_weak_password">Password is too weak, please use at least 6 characters</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_wrong_credentials">Incorrect email or password</string>
+    <string name="error_email_taken">This email is already registered, please switch to Login</string>
+    <string name="error_user_disabled">Account does not exist or has been disabled</string>
+    <string name="error_network">No network connection, please check again</string>
+    <string name="error_generic">Error: %1$s</string>
+
+    <!-- Results -->
+    <string name="msg_register_ok">Registration successful!</string>
+    <string name="msg_login_ok">Login successful!</string>
+    <string name="msg_logged_out">Logged out</string>
+    <string name="msg_reset_sent">Sent a password reset link to %1$s. Please check your inbox (including Spam).</string>
+</resources>
