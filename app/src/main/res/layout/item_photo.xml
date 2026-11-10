@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardBackgroundColor="#FFFFFF"
     app:cardCornerRadius="12dp"
     app:cardElevation="4dp">
 
@@ -31,7 +30,6 @@
             android:paddingStart="12dp"
             android:paddingTop="10dp"
             android:paddingEnd="12dp"
-            android:textColor="#212121"
             android:textSize="16sp"
             android:textStyle="bold"
             tools:text="Landscape Photo" />
@@ -44,7 +42,6 @@
             android:paddingTop="2dp"
             android:paddingEnd="12dp"
             android:paddingBottom="12dp"
-            android:textColor="#757575"
             android:textSize="13sp"
             tools:text="Author: Picsum" />
     </LinearLayout>

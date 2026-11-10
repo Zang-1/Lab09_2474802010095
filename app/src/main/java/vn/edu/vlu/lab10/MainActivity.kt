@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
 import com.google.firebase.auth.FirebaseAuth
 import vn.edu.vlu.lab10.databinding.ActivityMainBinding
 
@@ -67,7 +68,8 @@ class MainActivity : AppCompatActivity() {
             .placeholder(R.drawable.ic_placeholder)
             .error(R.drawable.ic_broken_image)
             .circleCrop() // transforms the image into a circle
-            .transition(DrawableTransitionOptions.withCrossFade())
+            // Real cross-fade: also fades the square placeholder out, otherwise it stays visible around the circle
+            .transition(DrawableTransitionOptions.withCrossFade(CROSS_FADE))
             .into(binding.ivAvatar)
     }
 
@@ -77,5 +79,9 @@ class MainActivity : AppCompatActivity() {
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
         finish()
+    }
+
+    private companion object {
+        val CROSS_FADE: DrawableCrossFadeFactory = DrawableCrossFadeFactory.Builder().setCrossFadeEnabled(true).build()
     }
 }

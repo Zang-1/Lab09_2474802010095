@@ -6,7 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
     android:fillViewport="true"
     android:fitsSystemWindows="true"
     tools:context=".AuthActivity">
@@ -25,7 +24,6 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:text="@string/app_name"
-            android:textColor="#B71C1C"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -33,7 +31,6 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="16dp"
             app:cardElevation="6dp">
 
@@ -142,7 +139,7 @@
                     android:layout_marginTop="12dp"
                     android:padding="4dp"
                     android:text="@string/forgot_password"
-                    android:textColor="#B71C1C"
+                    android:textColor="?attr/colorPrimary"
                     android:textStyle="bold" />
 
                 <!-- Submit: text changes with the Login / Register mode -->
