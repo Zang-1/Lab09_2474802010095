@@ -5,17 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F5F5F5"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!-- Material 3 toolbar with the default theme colors -->
+    <!-- Material 3 toolbar -->
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:background="#B71C1C"
         app:menu="@menu/menu_main"
-        app:title="@string/title_gallery" />
+        app:title="@string/title_gallery"
+        app:titleTextColor="#FFFFFF" />
 
     <!-- User row: circular avatar (Challenge 2) + welcome line -->
     <LinearLayout
@@ -42,6 +45,7 @@
             android:layout_weight="1"
             android:ellipsize="end"
             android:maxLines="1"
+            android:textColor="#212121"
             android:textSize="15sp"
             tools:text="Hello, test@gmail.com" />
     </LinearLayout>
