@@ -34,4 +34,4 @@ The project uses the current toolchain instead of the versions in the handout:
 Target SDK 35+ draws behind the system bars, so both screens use `fitsSystemWindows`.
 
 ## AI use
-AI helped write the code so it could be copied and pasted quickly; the ideas are my own.
+AI helped reorganize and present the content in a logical, easy-to-understand order, breaking it down into specific steps to make completing the assignment easier
